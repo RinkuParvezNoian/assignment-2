@@ -1,0 +1,424 @@
+/* -------nav start here-------- */
+
+header {
+    background-color: rgba(255, 144, 14, 0.1);
+}
+
+.header-section {
+    width: 80%;
+    margin: auto;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.title-info {
+    font-weight: 700;
+    font-size: 30px;
+}
+
+ul li {
+    list-style: none;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.menu {
+    display: flex;
+    gap: 20px;
+}
+
+/* ---------nav end here---------- */
+
+
+/* --------header star here-------- */
+
+
+.main-heading {
+    width: 80%;
+    align-items: center;
+    margin: auto;
+}
+
+.heading-title {
+    margin-left: 200px;
+    font-weight: 700;
+    font-size: 50px;
+}
+
+.brand-new {
+    margin-left: 100px;
+}
+
+.heading-info p {
+    margin-left: 80px;
+}
+
+.heading-text {
+    margin-left: 100px;
+}
+
+.header-btn {
+    background-color: #FF900E;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-left: 350px;
+    width: 120px;
+    height: 40px;
+    margin-top: 32px;
+}
+
+.heading-banner {
+    margin-top: 50px;
+    margin-bottom: 38px;
+    padding-bottom: 42px;
+}
+
+/*---------- header end here----------- */
+
+
+/* -----------main start here---------- */
+
+
+/* ------------main section header start here---------- */
+
+.main {
+    width: 82%;
+    margin: auto;
+}
+
+.main-section-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 67px;
+}
+
+.main-img-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+
+.main-content {
+    margin-left: 73px;
+}
+
+.main-title {
+    font-weight: 600;
+    font-size: 35px;
+}
+
+.title-one {
+    color: #727272;
+}
+
+.title-two {}
+
+.title-three {
+    color: #FF900E;
+}
+
+.main-text {
+    color: #727272;
+}
+
+.main-btn {
+    background-color: #FF900E;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    width: 120px;
+    height: 40px;
+    margin-top: 32px;
+}
+
+/* ---------main section header end here---------- */
+
+
+/* ------------main section body start here----------- */
+
+.main-section-body {
+    display: flex;
+}
+
+.main-body-title-container {
+    margin-bottom: 60px;
+}
+
+.main-body-title {
+    font-weight: 900;
+    font-size: 35px;
+    border-left: 4px solid #FF900E;
+    padding-left: 10px;
+}
+
+.main-body-title-text {
+    color: #727272;
+    font-weight: 300;
+    font-size: 14px;
+}
+
+.element-container {
+    margin-bottom: 40px;
+    padding: 10px;
+}
+
+.element-title {
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.element-text {
+    color: #727272;
+    font-weight: 300;
+    font-size: 14px;
+}
+
+.main-body-img {
+    margin-left: 55px;
+}
+
+.main-body-btn {
+    background: #FF900E;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    border: none;
+    padding: 25px 35px;
+    border-radius: 5px;
+    margin: -30px;
+}
+
+/* ------------main section body end here----------- */
+
+
+/* -------------main section footer start here-------------*/
+
+.main-section-footer-title-container {
+    margin-top: 100px;
+    margin-left: 40px;
+}
+
+.some-fact-container {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 60px;
+}
+
+.some-fact-container :hover {
+    background-color: bisque;
+    border: none;
+}
+
+.some-fact {
+    border: 1px solid #FF900E;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.some-fact img {
+    margin-left: 33px;
+}
+
+.some-fact h2 {
+    margin-left: 42px;
+}
+
+/* ---------------main section footer end here------------- */
+
+
+/* --------------sponsor section start here-------------- */
+
+.sponsors-container {
+    width: 40%;
+    margin: auto;
+    margin-top: 120px;
+}
+
+.sponsors-container h1 {
+    margin-left: 140px;
+}
+
+.sponsor-text {
+    margin-left: 80px;
+}
+
+.sponsor-banner {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+}
+
+/* --------------sponsor section end here-------------- */
+
+
+/* ---------------bonus section start here-------------- */
+
+
+.bonus-title {
+    font-size: 35px;
+    font-weight: 800;
+}
+
+.bonus-section {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    background-color: whitesmoke;
+}
+
+.input-tag {
+    margin: 10px 0;
+    padding: 10px;
+    font-size: 30px;
+    border-color: #FF900E;
+    border-radius: 5px;
+}
+
+
+/* -------------bonus section end here------------- */
+
+
+/* -------------footer section start here------------ */
+
+
+.footer {
+    width: 80%;
+    margin: auto;
+}
+
+.footer-container {
+    background-color: #FFF4E7;
+    height: 80px;
+    margin-top: 60px;
+}
+
+.footer-detail {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+    color: #424242;
+}
+
+
+/* --------------footer section end here------------- */
+
+
+
+/* -----------media query start here-------------- */
+
+
+
+@media screen and (max-width: 576px) {
+
+    /*--------------- nav start------------ */
+
+    .nav-bar {
+        flex-direction: column;
+    }
+    .menu {
+        flex-direction: column;
+    }
+
+    /* ------------nav end------------------ */
+
+
+    /*------------ header start----------- */
+
+    .heading-title {
+        margin-left: auto;
+    }
+    .heading-info p {
+        margin-left: auto;
+    }
+    
+    .heading-text {
+        margin-left: auto;
+    }
+    .header-btn {
+        margin: auto;
+    }
+    
+    .brand-new {
+        margin-left: auto;
+    }
+    .kama-suga {
+        width: 100%;
+    }
+
+
+    /* ------------header end------------- */
+
+    /* --------main section header start------- */
+
+
+    .main-section-header {
+        flex-direction: column;
+     }
+    .main-img-container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 24px;
+    }
+    .main-content {
+        margin-left: auto;
+    }
+
+
+    /* ----------main section header end--------- */
+
+
+    /* -----------main section body start here----------- */
+
+
+    .main-section-body {
+        flex-direction: column;
+    }
+    .main-body-img {
+        margin-left: auto;
+    }
+
+
+    /* -----------main section body end here---------- */
+
+
+    /* ------------main section footer start here------------- */
+
+
+    .some-fact-container {
+        flex-direction: column;
+        gap: 10px;
+     }
+     .some-fact-container :hover {
+        background-color: bisque;
+        border: none;
+    }
+
+
+     /* ----------main section body end here----------- */
+
+
+     /* ----------sponsor section start here--------- */
+
+
+     .sponsor-banner {
+        flex-direction: column;
+        gap: 20px;
+     }
+     .sponsors-container h1 {
+        margin-left: auto;
+    }
+
+
+     /* -------------sponsor section end here------------ */
+    
+}
+
+
+
+/* --------------media query end here---------------- */
